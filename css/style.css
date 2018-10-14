@@ -1,0 +1,37 @@
+h1 {
+  margin-bottom: 0;
+}
+h1 + p {
+  font-size: 1.08em;
+  color: #637a91;
+  margin-top: .5em;
+  margin-bottom: 2.65em;
+  padding-bottom: 1.325em;
+  border-bottom: 1px dotted;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: .45em .5em;
+  margin-bottom: .35em;
+  display: flex;
+  align-items: center;
+}
+
+div.list {
+  margin-top: 2.8em;
+  padding: 1.5em 0 .5em;
+  border-top: 1px dotted #637a91;
+}
+p.description {
+  font-weight: bold;
+}
+
+button + button {
+  margin-left: .5em;
+}
+li button:first-child {
+  margin-left: auto;
+}

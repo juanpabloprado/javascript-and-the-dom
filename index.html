@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>JavaScript and the DOM</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 id="myHeading">JavaScript and the DOM</h1>
+    <p>Making a web page interactive</p>
+    <button id="toggleList" class="btn btn-success">Hide list</button>
+    <div class="list">
+      <p class="description">Things that are purple:</p>
+      <div class="input-group">
+        <input type="text" class="description">
+        <div class="input-group-append">
+          <button class="description btn btn-primary">Change list description</button>
+        </div>
+
+      </div>
+
+      <ul>
+        <li>grapes</li>
+        <li>amethyst</li>
+        <li>lavender</li>
+        <li>plums</li>
+      </ul>
+      <div class="input-group">
+        <input type="text" class="addItemInput">
+        <div class="input-group-append">
+          <button class="addItemButton btn btn-primary">Add item</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
